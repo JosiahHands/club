@@ -5,6 +5,7 @@
 body {
     background-color: lightgreen;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
@@ -14,7 +15,11 @@ header {
    position: sticky;
 }
 
-.pics {
+section {
+    border: 1px solid black;
+}
+
+.pics, .gifs {
    width: 100%;
    display: flex;
    flex-wrap: wrap;
@@ -22,7 +27,7 @@ header {
 }
 
 
-.pics img {
+.pics img, .gifs embed {
    width: 300px;
    min-width: 150px;
    max-width: 600px;
@@ -34,4 +39,28 @@ header {
    flex-shrink: 1;
    flex-basis: auto;
    object-fit: contain;
+}
+
+footer {
+    background-color: white;
+    padding: 5px;
+}
+
+footer div {
+    width: 100%;
+}
+footer div embed {
+    padding: 20px;
+}
+
+footer div .box {
+    display: block;
+    width: 90%;
+    
+}
+
+.sne {
+    font-size: 0.7em;
+    text-align: left;
+    margin: 3px;
 }
