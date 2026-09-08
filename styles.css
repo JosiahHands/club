@@ -55,7 +55,8 @@ footer div embed {
 
 footer div .box {
     display: block;
-    width: 90%;
+    width: 100%;
+    text-align: center;
     
 }
 
