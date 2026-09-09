@@ -20,26 +20,29 @@ section {
 }
 
 .pics, .gifs {
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: space-around;
-   padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;   /* stops Safari stretch */
+  gap: 16px;
+  padding: 10px;
 }
 
 img, embed {
     height: fit-content;
 }
-.pics img, .gifs img {
-   min-width: 150px;
-   max-width: 600px;
-   margin: 10px;
-   border: 7px solid black;
-   border-radius: 10px;
-   flex-grow: 1;
-   flex-shrink: 1;
-   flex-basis: 300px;
-   object-fit: contain;
-   padding: 0px;
+.pics img,
+.gifs img {
+  display: block;
+  width: 100%;
+  max-width: 420px;
+  min-width: 160px;
+  height: auto;              /* not fit-content */
+  flex: 1 1 280px;
+  object-fit: contain;
+  border: 7px solid #000;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 footer {
