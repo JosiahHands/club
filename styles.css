@@ -32,7 +32,6 @@ img, embed {
 .pics img, .gifs embed {
    min-width: 150px;
    max-width: 600px;
-   height: fit-content;
    margin: 10px;
    border: 7px solid black;
    border-radius: 10px;
