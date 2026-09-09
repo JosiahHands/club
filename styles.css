@@ -23,13 +23,13 @@ section {
    display: flex;
    flex-wrap: wrap;
    justify-content: space-around;
-   padding: 0px;
+   padding: 10px;
 }
 
 img, embed {
     height: fit-content;
 }
-.pics img, .gifs embed {
+.pics img, .gifs img {
    min-width: 150px;
    max-width: 600px;
    margin: 10px;
