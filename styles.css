@@ -35,7 +35,6 @@ img, embed {
    max-width: 600px;
    height: fit-content;
    margin: 10px;
-   border: 7px solid black;
    border-radius: 10px;
    flex-grow: 1;
    flex-shrink: 1;
